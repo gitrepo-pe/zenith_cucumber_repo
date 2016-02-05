@@ -1,0 +1,89 @@
+---
+OpportunityAssetvalues1:
+ OpportunityAssetName: "PET_Testing_OppAsset1"
+ ExistingRenewalAmount: "99999"
+ ClientBatchYear: "2015"
+ ClientBatchQuarter: "Q1"
+ BatchType: "Renewal"
+ ExistingStartDate: "11/16/2015"
+ ExistingEndDate : "11/16/2016"
+ ProductGroup: "LL"
+ OpportunityName: "PET_Testing_Opp"
+  
+Opportunityvalues:
+ OpportunityName: "pet_Testing2016_26"
+ Stage: "Contacted"
+ BusinessLine: "WP"
+ OpportunityCurrency: "EUR - Euro"
+ ExistingBusinessLine: "WP"
+ AccountName: "testing_acc"
+ SSITheatre: "EMEA"
+ ClientTerritory: "EMEA"
+ ClientRegion: "EMEA"
+ country: "India"
+ CloseDate: "10/13/2015"
+ POSubmissionDate: "12/17/2015"
+ OpportunityType: "Auto-Renewal"
+ Directchannel: "Direct"
+ OpsStage: "PO Accepted"
+  
+
+Opportunityvalues:
+ OpportunityName: "pet_Testing2016"
+ Stage: "Contacted"
+ BusinessLine: "WP"
+ OpportunityCurrency: "EUR - Euro"
+ ExistingBusinessLine: "WP"
+ Country : "India"
+ AccountName: "testing_acc"
+ SSITheatre: "EMEA"
+ ClientTerritory: "EMEA"
+ ClientRegion: "EMEA"
+ country: "India"
+ CloseDate: "10/13/2015"
+ POSubmissionDate: "12/17/2015"
+  
+
+OpportunityAssetvalues2:
+ OpportunityAssetName: "PET_Testing_OppAsset2"
+ ExistingRenewalAmount: "99999"
+ ClientBatchYear: "2015"
+ ClientBatchQuarter: "Q1"
+ BatchType: "Renewal"
+ ExistingStartDate: "11/16/2015"
+ ExistingEndDate : "11/16/2016"
+ ProductGroup: "MQ"
+ OpportunityName: "Testing"
+  
+Quotesdetails:
+ QuoteType: "Direct"
+ QuoteTypeYear: "4"
+ EarliestNewStartDate: "11/21/2015"
+ LatestNewEndDate: "11/21/2015"
+ currency: "SEK - Swedish Krona"
+ TransactionAmount: "10000"
+ 
+ 
+SSIResultReason:
+ value: "--None--,CS - Renewed at Par - R@P,CS - Backdated - BKD,CS - Consolidated Child - CDC,CS - Consolidated Parent - CDP,CS - Co-term Long - CTL,CS - Co-term Short - CTS,CS - Discount - DIS,CS - Multi-Year Advance - MYR,CS - Multi-Year Annual - MYA,CS - Partial Loss - LOS,CS - Pricing Change - PRC,CS - Re-Cert Fee Included - RCT,CS - Sales Pullback Renewed - SPR,CS - Service Downgrade - DNG,CS - Service Upgrade - UPG,CS - Uncovered - UNC,HA - Already Renewed - ARN,HA - Bad Data - BDT,HA - Duplicate - DUP,HA - End Of Support - EOL,HA - Other - OTH,HA - Previously Renewed Contract - REN,HA - Sales Pull Back - SPB,HA - Theater Swap - THS,HA - Upgrade - EUG,NS - Bid - NBD,NS - Can not Reach Contact - CNC,NS - Client Product Replacement - PTR,NS - Competitive DVAR - SCV,NS - Competitive Service Loss Other - SCS,NS - Customer Cost-Benefit Decision - SCB,NS - Customer No Longer Exists - RNE,NS - Customer Satisfaction Driven - SSD,NS - End of Service Life - PEL,NS - No Product (No Longer Using) - NP,NS - Not in Budget - NIB,NS - Other Data Management - RDM,NS - Out of Business/Aquired/Merged - OOB,NS - Outside Vendor Supporting - OVS,NS - Prefers Time & Materials - T&M,NS - Product Decommissioned - PPD,NS - Switched to Competitor - STC,NS - Third Party Maintenance - SPM,NS - Unresponsive End User - REU,NS - Unresponsive VAR - RUV,NS - Unsatisfied with Service - UWS,NS - VAR No Service - RVN"
+  
+QuoeRequestCaseMF:
+ Description: "Testing is in progress"
+ SubCaseTypeOption: "New"
+ QuoteTypeOption: "1 Year"
+
+BookingRequestCaseMF:
+ Description: "Testing is in progress"
+ SubCaseTypeOption: "New"
+ ContractAmount: "123"
+
+DataUpdateRequestMF:
+ Description: "Testing is in progress"
+
+CommonData:
+ ExpectedOption: ["Booking Request","Quote Request","Data Update Request"]
+ Existing_Business_Line_option: ["WP","WV"]
+
+NewContect:
+ Account Name: "Test Account"
+ Last Name: "Testing"
